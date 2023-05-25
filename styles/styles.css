@@ -6,7 +6,6 @@
 }
 
 /*-----INDEX-----*/
-
 .barra {
   height: 100vh;
   width: 100vw;
@@ -65,7 +64,6 @@ nav .texto-barra ul li a {
 }
 
 /*-----EVENTOS Y DISEÑOS-----*/
-
 .barra-eventos {
   width: 100vw;
   background-image: url(../imagenes/fondo-eventos.jpg);
@@ -107,6 +105,44 @@ nav .texto-barra ul li a {
 .contenedor-cajas .caja img {
   height: 60%;
   width: 100%;
+}
+
+/*-----NOSOTROS-----*/
+.barra-nosotros {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../imagenes/fondo-nosotros.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.titulo-nosotros h2 {
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  font-family: "Castoro Titling", cursive;
+  font-size: 1rem;
+}
+
+.info-nosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  padding: 10px;
+  color: white;
+}
+.info-nosotros img {
+  width: 80%;
+  border-radius: 10px;
+}
+.info-nosotros p {
+  width: 80%;
+  font-family: "Dancing Script";
+  font-size: 1.1rem;
 }
 
 @media (min-width: 400px) {
