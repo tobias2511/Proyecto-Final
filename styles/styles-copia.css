@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.barra{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../imagenes/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}   
+nav{
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    opacity: 0.7;
+    top: 0px;
+    
+}
+nav h1{
+    text-align: center;
+}
+.nombre{
+    text-decoration: none;
+    color: black;
+    font-family: 'Castoro Titling', cursive;
+    font-size: 1.2rem ;
+    align-content: center;
+}
+.texto-barra{
+    text-align: center;
+}
+.texto-barra ul li{
+    
+    display: inline-flex;
+    list-style-type: none;
+    font-family: 'Dancing Script';
+    color: black;
+    
+}
+.texto-barra ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0px  1px;
+
+}
+.info{
+    background-color: black;
+    height: 150px;
+    width: 100vw;
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 1rem;
+    color: white;
+}
+.info p{
+padding:30px ;
+}
+
+/*-----Eventos y Diseños-----*/
+.barra-eventos{
+    width: 100vw;
+    background-image: url(../imagenes/fondo-eventos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}  
+.titulo-eventos{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-family:'Castoro Titling', cursive;
+    font-size: 0.7rem;
+}
+
+
+.contenedor-cajas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caja{
+    width: 70vw;
+    height: 50vh;
+    border-radius: 8px;
+    background-color: white;
+    overflow:auto    ;
+    margin: 20px;
+    text-align: center;
+    transition:all 0.25s;
+    color: black    ;
+    font-family:'Dancing Script';
+    box-shadow: 0px 0px 10px 6px black;
+}
+h3{
+    font-family: 'Castoro Titling', cursive;
+}
+.caja img{
+    height: 60%;
+    width: 100%;
+}
+
+/*-----NOSOTROS-----*/
+.barra-nosotros{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../imagenes/fondo-nosotros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}  
+
+
+.info-nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.titulo-nosotros h2{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-family:'Castoro Titling', cursive;
+    font-size: 1rem;
+}
+.info-nosotros img{
+    width: 80%;
+    border-radius: 10px;
+}
+.info-nosotros p{
+    width: 80%;
+    font-family:'Dancing Script';
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:400px){
+    .info{
+        font-size: 1rem;
+    }
+    .nombre{
+        font-size: 1.5rem;
+    }
+    .texto-barra ul li a{
+        font-size: 1rem;
+    }
+
+}
+
+@media(min-width:511px){
+    .info{
+        font-size: 1.2rem;
+    }
+    .caja-uno{
+        align-self: self-start;
+    }
+    .caja-dos{
+        align-self: self-end;
+    }
+    .caja-tres{
+        align-self: self-start;
+    }
+    .caja{
+        width: 345px;
+        height: 50vh;
+    }
+
+}
+
+
+@media(min-width:768px){
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 8%;
+        padding-right: 8%;
+        background-color: white;
+        opacity: 0.7;
+        top: 0px;
+        
+    }
+    .nombre{
+        font-size: 1.2rem;
+    }
+    .texto-barra ul li a{
+        color: black;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 0px  5px;
+
+    }
+    .info{
+        font-size: 1.5rem;
+    }
+    .titulo-eventos h2{
+        font-size: 1.5rem;
+    }
+    .contenedor-cajas{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(5,1fr) ;
+        
+    }
+    
+    .caja-uno{
+        grid-column: 1/2;
+        grid-row: 1/1;
+        justify-self: end;
+    }  
+    .caja-dos{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }   
+    .caja-tres{
+        grid-column: 1/2;
+        grid-row: 3/3;
+        justify-self: end;
+    }  
+}
+
+@media(min-width:1024px){
+    .nombre{
+        font-size: 1.3rem;
+    }
+    .titulo-eventos h2{
+        font-size: 1.8rem;
+    }
+    .texto-barra ul li a{
+        font-size: 1.2rem;
+        padding: 0px  5px;
+    
+    }
+    .caja{
+        width: 70%;
+    }
+}
+@media(min-width:1200px){
+    .nombre{
+        font-size: 2rem;
+    }
+    .texto-barra ul li a{
+        font-size: 1.5rem;
+        
+    
+    }
+    .info{
+        font-size: 1.8rem;
+    }
+    .titulo-eventos h2{
+        font-size: 2rem;
+    }
+}

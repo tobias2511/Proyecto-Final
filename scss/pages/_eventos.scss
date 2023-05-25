@@ -1,0 +1,46 @@
+/*-----EVENTOS Y DISEÑOS-----*/
+
+.barra-eventos{
+    width: 100vw;
+    background-image: url(../imagenes/fondo-eventos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}  
+.titulo-eventos{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-family:'Castoro Titling', cursive;
+    font-size: 0.7rem;
+}
+.contenedor-cajas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .caja{
+        width: 70vw;
+        height: 50vh;
+        border-radius: 8px;
+        background-color: white;
+        overflow:auto    ;
+        margin: 20px;
+        text-align: center;
+        transition:all 0.25s;
+        color: black    ;
+        font-family:'Dancing Script';
+        box-shadow: 0px 0px 10px 6px black;
+
+        h3{
+            font-family: 'Castoro Titling', cursive;
+        }
+
+        img{
+            height: 60%;
+            width: 100%;
+        }
+    }
+}
