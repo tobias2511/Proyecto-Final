@@ -6,7 +6,6 @@
 }
 
 /*-----INDEX-----*/
-
 .barra {
   height: 100vh;
   width: 100vw;
@@ -65,7 +64,6 @@ nav .texto-barra ul li a {
 }
 
 /*-----EVENTOS Y DISEÑOS-----*/
-
 .barra-eventos {
   width: 100vw;
   background-image: url(../imagenes/fondo-eventos.jpg);
