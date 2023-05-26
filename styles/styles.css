@@ -169,6 +169,9 @@ nav .texto-barra ul li a {
   .caja-tres {
     align-self: self-start;
   }
+  .caja-cuatro {
+    align-self: self-end;
+  }
   .contenedor-cajas .caja {
     width: 345px;
     height: 50vh;
@@ -222,6 +225,10 @@ nav .texto-barra ul li a {
     grid-row: 3/3;
     justify-self: end;
   }
+  .caja-cuatro {
+    grid-column: 2/3;
+    grid-row: 4/4;
+  }
 }
 @media (min-width: 1024px) {
   nav h1 .nombre {
@@ -235,7 +242,7 @@ nav .texto-barra ul li a {
     padding: 0px 5px;
   }
   .contenedor-cajas .caja {
-    width: 70%;
+    width: 50%;
   }
 }
 @media (min-width: 1200px) {
