@@ -2,34 +2,60 @@
 .barra-nosotros{
     height: 100%;
     width: 100vw;
-    background-color: black;
     background-attachment: fixed;
-    
+    box-shadow: -1px 4px 6px 0px;
 }  
 
-.info-mision{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    gap: 10px;
-    margin-top: 20px;
-    padding: 10px;
-    color: white;
+main{
+    margin: 0;
+    background-color: #fffcf2;
 
-    img{
-        width: 80%;
-    }
-
-    h3{
-        font-family: 'Castoro Titling', cursive;
-        margin-top: 30px;
-    }
-
-    p{
-        width: 80%;
-        font-family:'Dancing Script';
-        font-size: 1.1rem;
-    }
+    .info-mision{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+        padding: 20px;
+        color: black;
     
+        img{
+            width: 80%;
+        }
+    
+        h3{
+            font-family: 'Castoro Titling', cursive;
+            margin-top: 30px;
+        }
+    
+        p{
+            width: 80%;
+            font-family:'Dancing Script';
+            font-size: 1.1rem;
+        }
+    }
+    .info-historia{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+        padding: 20px;
+        color: black;
+    
+        img{
+            width: 80%;
+        }
+    
+        h3{
+            font-family: 'Castoro Titling', cursive;
+            margin-top: 30px;
+        }
+    
+        p{
+            width: 80%;
+            font-family:'Dancing Script';
+            font-size: 1.1rem;
+        }
+    }
 }
