@@ -90,6 +90,34 @@ footer a {
   font-size: 0.7rem;
 }
 
+.barra-contacto {
+  height: 100%;
+  width: 100vw;
+}
+
+.contacto {
+  margin: 20px;
+  height: 100vh;
+}
+.contacto h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Castoro Titling", cursive;
+  font-size: 1rem;
+}
+.contacto p {
+  font-family: "Dancing Script";
+}
+.contacto a {
+  display: flex;
+  gap: 6px;
+  text-decoration: none;
+  color: black;
+}
+.contacto a:hover {
+  color: grey;
+}
+
 /*-----EVENTOS Y DISEÑOS-----*/
 .barra-eventos {
   width: 100vw;
@@ -138,8 +166,6 @@ footer a {
 .barra-nosotros {
   height: 100%;
   width: 100vw;
-  background-attachment: fixed;
-  box-shadow: -1px 4px 6px 0px;
 }
 
 main {

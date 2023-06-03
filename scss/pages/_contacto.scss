@@ -1,0 +1,29 @@
+.barra-contacto{
+    height: 100%;
+    width: 100vw;
+}
+
+.contacto{
+    margin: 20px;
+    height: 100vh;
+    h2 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-family:  'Castoro Titling', cursive;
+        font-size: 1rem;
+    }
+   
+    p{
+        font-family: 'Dancing Script';
+    }
+    a{
+        display: flex;
+        gap: 6px;
+        text-decoration: none;
+        color: black;
+
+        &:hover{
+            color:grey;
+        }
+    }
+}
