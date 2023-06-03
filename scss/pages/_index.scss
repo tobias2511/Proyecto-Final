@@ -65,3 +65,38 @@ nav{
     }
 }
 
+footer{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color:white;
+    
+    h2{
+        font-family: 'Castoro Titling', cursive;
+        text-align: center;
+        font-size: 1.2rem ;
+        margin-bottom: 10px;
+
+       
+    }
+    .redes{
+       display: flex;
+       gap: 6px;
+       justify-content: center;
+       margin-bottom: 10px;
+       
+       
+    }
+
+    p{
+        text-align: center;
+        font-size: 0.6rem;
+        margin-bottom: 10px;
+    }
+
+    a{
+    color: black;
+    font-size: 0.7rem;
+   }
+  
+}
+

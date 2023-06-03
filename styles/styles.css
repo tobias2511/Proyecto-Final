@@ -63,6 +63,33 @@ nav .texto-barra ul li a {
   padding: 30px;
 }
 
+footer {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+footer h2 {
+  font-family: "Castoro Titling", cursive;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+footer .redes {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+footer p {
+  text-align: center;
+  font-size: 0.6rem;
+  margin-bottom: 10px;
+}
+footer a {
+  color: black;
+  font-size: 0.7rem;
+}
+
 /*-----EVENTOS Y DISEÑOS-----*/
 .barra-eventos {
   width: 100vw;
@@ -133,7 +160,7 @@ main .info-mision img {
 }
 main .info-mision h3 {
   font-family: "Castoro Titling", cursive;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 main .info-mision p {
   width: 80%;
@@ -154,7 +181,7 @@ main .info-historia img {
 }
 main .info-historia h3 {
   font-family: "Castoro Titling", cursive;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 main .info-historia p {
   width: 80%;
