@@ -90,25 +90,42 @@ footer a {
   font-size: 0.7rem;
 }
 
+.logo-animado:hover {
+  animation-name: animacion-imagen;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes animacion-imagen {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .barra-contacto {
   height: 100%;
   width: 100vw;
 }
 
 .contacto {
-  margin: 10%;
-  height: 100%;
-  margin-bottom: 50px;
-  margin-top: 20px;
+  padding: 20px;
 }
 .contacto h2 {
   text-align: center;
   margin-bottom: 10px;
   font-family: "Castoro Titling", cursive;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .contacto p {
   font-family: "Dancing Script";
+  font-size: 1.125rem;
+  margin-bottom: 20px;
+  text-align: justify;
 }
 .contacto a {
   display: flex;
@@ -132,25 +149,21 @@ footer a {
   font-family: "Courier New", Courier, monospace;
   border-radius: 6px;
   border: 2px solid black;
-  background-color: #fffcf2;
 }
 .contacto .formulario__info--email {
   font-family: "Courier New", Courier, monospace;
   border-radius: 6px;
   border: 2px solid black;
-  background-color: #fffcf2;
 }
 .contacto .formulario__info--mensaje {
   font-family: "Courier New", Courier, monospace;
   border-radius: 6px;
   border: 2px solid black;
-  background-color: #fffcf2;
 }
 .contacto .formulario__info--boton {
   font-family: "Courier New", Courier, monospace;
   border-radius: 6px;
   border: 2px solid black;
-  background-color: #fffcf2;
 }
 .contacto .formulario__info--boton:hover {
   color: grey;
@@ -208,7 +221,6 @@ footer a {
 
 main {
   margin: 0;
-  background-color: #fffcf2;
 }
 main .info-mision {
   display: flex;
@@ -317,7 +329,7 @@ main .info-historia p {
   .contenedor-cajas {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
   }
   .caja-uno {
     grid-column: 1/2;
@@ -337,6 +349,13 @@ main .info-historia p {
     grid-column: 2/3;
     grid-row: 4/4;
   }
+  .contacto {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  .contacto {
+    margin-bottom: 100px;
+  }
 }
 @media (min-width: 1024px) {
   nav h1 .nombre {
@@ -352,6 +371,39 @@ main .info-historia p {
   .contenedor-cajas .caja {
     width: 50%;
   }
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-top: 50px;
+  }
+  main .info-mision .info-historia {
+    width: 45%;
+  }
+  main img {
+    width: 100%;
+    height: 100%;
+  }
+  main h3 {
+    font-size: 2rem;
+  }
+  main p {
+    font-size: 1.2rem;
+  }
+  .contacto h2 {
+    font-size: 2.25rem;
+  }
+  .contacto p {
+    font-size: 1.25rem;
+  }
+  .contacto .formulario {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .contacto input, .contacto textarea {
+    font-size: 20px;
+  }
 }
 @media (min-width: 1200px) {
   nav h1 .nombre {
@@ -365,6 +417,12 @@ main .info-historia p {
   }
   .titulo-eventos h2 {
     font-size: 2rem;
+  }
+  main {
+    margin-bottom: 50px;
+  }
+  main p {
+    font-size: 1.5rem;
   }
 }
 

@@ -89,7 +89,7 @@
     .contenedor-cajas{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(5,1fr) ;
+        grid-template-rows: repeat(4,1fr) ;
         
     }
     
@@ -111,7 +111,13 @@
         grid-column: 2/3;
         grid-row: 4/4;
     }  
-    
+    .contacto{
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    .contacto{
+        margin-bottom: 100px;
+    }
 }
 
 @media(min-width:1024px){
@@ -129,6 +135,47 @@
     .contenedor-cajas .caja{
         width: 50%;
     }
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        margin-top: 50px;
+
+        .info-mision .info-historia {
+          width: 45%;
+        }
+        
+        img {
+          width: 100%;
+          height: 100%;
+        }
+        h3 {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 1.2rem;
+        }
+      }
+    .contacto{
+
+        h2{
+            font-size:2.25rem;
+        }
+        p {
+            font-size: 1.25rem;
+        }
+        
+        .formulario {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        input, textarea {
+            font-size: 20px;
+        }
+    }
+    
 }
 @media(min-width:1200px){
     nav h1 .nombre{
@@ -145,4 +192,11 @@
     .titulo-eventos h2{
         font-size: 2rem;
     }
+    main{
+        margin-bottom: 50px;
+        p {
+            font-size: 1.5rem;
+          }
+    }
 }
+
